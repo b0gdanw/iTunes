@@ -1,0 +1,13 @@
+Installing the Windows 32-bit version of iTunes 12.6.5.3 in Mojave using Wine (working App Store downloads)
+1. Install XQuartz - XQuartz-2.7.11.dmg from https://www.xquartz.org
+2. Install only 32bit components of Wine Stable 5 winehq-stable-5.0.pkg from https://dl.winehq.org/wine-builds/macosx/download.html
+3. Download Mono wine-mono-5.1.0-x86.msi from https://dl.winehq.org/wine/wine-mono/5.1.0/
+and Gecko wine-gecko-2.47.1-x86.msi from https://wiki.winehq.org/Gecko
+4. Launch /Applications/Wine Stable.app
+5. In the Terminal window opened, install Mono & Gecko with 
+wine msiexec /i ~/Downloads/wine-gecko-2.47.1-x86.msi
+wine msiexec /i ~/Downloads/wine-mono-5.1.0-x86.msi
+6. Download iTunes 12.6.5.3 PC (32-bit) exe from https://support.apple.com/kb/HT208079 and install it with 
+wine ~/Downloads/iTunesSetup.exe
+7. Start iTunes with
+wine ~/.wine/drive_c/Program\ Files/iTunes/iTunes.exe
