@@ -12,3 +12,5 @@ Download iTunes 12.6.5.3 dmg from https://support.apple.com/kb/HT208079
 Download iTunes 12.8.2 dmg from https://support.apple.com/kb/DL1977
 
 Download iTunes 12.6.5.3 PC (32-bit) exe from https://support.apple.com/kb/HT208079
+
+charles.xml - Configuration for Charles (https://www.charlesproxy.com) that enables iTunes IPA downloads (credit XXLuigiMario) Installation: Charles - Tools - Import/Export Settings - Import - Choose file - Import
